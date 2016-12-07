@@ -1,0 +1,8 @@
+---
+title: "Contact"
+---
+
+<aside>
+  <p>Drop us a line.</p>
+</aside>
+<a href="mailto:info@laruche.io">info@laruche.io</a>
