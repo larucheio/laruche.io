@@ -6,6 +6,8 @@ laruche.io is based on [Hugo](http://gohugo.io/).
 
 ## Dev
 
+The `dev` branch is automatically deployed to [dev.laruche.io](http://dev.laruche.io).
+
 ### Requirements
 
 -   [Hugo](http://gohugo.io/)
