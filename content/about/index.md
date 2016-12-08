@@ -16,7 +16,7 @@ title: "About"
   We value open source works. We are enthusiastic about integrating them to our projects or creating some that might help someone or could receive the help of the community.
 </p>
 <h3>Meet The Team</h3>
-<img src="http://placehold.it/200x200">
+<img src="http://placehold.it/200x200" alt="Julien Grünhagel">
 <strong>Julien Grünhagel</strong>
-<img src="http://placehold.it/200x200">
+<img src="http://placehold.it/200x200" alt="Maxime Rossier">
 <strong>Maxime Rossier</strong>
