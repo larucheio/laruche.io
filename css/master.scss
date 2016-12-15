@@ -5,12 +5,14 @@
 
 /**
  * CONTENTS
+ * Global...............Globally-available variables and config.
  *
  * SETTINGS
  *
  * TOOLS
  *
  * GENERIC
+ * Typography...........Typography rules like font, sizing...
  *
  * BASE
  *
@@ -20,3 +22,7 @@
  *
  * TRUMPS
  */
+
+@import "contents.global";
+
+@import "generic.typography";
