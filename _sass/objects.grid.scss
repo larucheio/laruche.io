@@ -1,0 +1,14 @@
+.o-grid {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: $grid-breakpoint) {
+  .o-grid-large {
+    flex-direction: row;
+  }
+}
+
+  .o-half-width {
+    flex-basis: 50%;
+  }

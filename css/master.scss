@@ -17,6 +17,7 @@
  * Typography...........Typography rules like font-family, sizing...
  *
  * OBJECTS
+ * Grid.................Grid elements (using Flexbox)
  *
  * COMPONENTS
  *
@@ -26,3 +27,5 @@
 @import "contents.global";
 
 @import "base.typography";
+
+@import "objects.grid";
