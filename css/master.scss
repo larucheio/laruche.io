@@ -12,9 +12,9 @@
  * TOOLS
  *
  * GENERIC
- * Typography...........Typography rules like font, sizing...
  *
  * BASE
+ * Typography...........Typography rules like font-family, sizing...
  *
  * OBJECTS
  *
@@ -25,4 +25,4 @@
 
 @import "contents.global";
 
-@import "generic.typography";
+@import "base.typography";
