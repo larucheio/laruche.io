@@ -1,5 +1,6 @@
 exclude: [
   'Gemfile',
   'Gemfile.lock',
-  'readme.md'
+  'readme.md',
+  'vendor'
   ]
