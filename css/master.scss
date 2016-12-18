@@ -1,0 +1,31 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+/**
+ * CONTENTS
+ * Global...............Globally-available variables and config.
+ *
+ * SETTINGS
+ *
+ * TOOLS
+ *
+ * GENERIC
+ *
+ * BASE
+ * Typography...........Typography rules like font-family, sizing...
+ *
+ * OBJECTS
+ * Grid.................Grid elements (using Flexbox)
+ *
+ * COMPONENTS
+ *
+ * TRUMPS
+ */
+
+@import "contents.global";
+
+@import "base.typography";
+
+@import "objects.grid";
