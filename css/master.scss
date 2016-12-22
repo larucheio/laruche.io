@@ -18,6 +18,7 @@
  *
  * OBJECTS
  * Grid.................Grid elements (using Flexbox)
+ * List.................List without bullet points
  *
  * COMPONENTS
  *
@@ -29,3 +30,4 @@
 @import "base.typography";
 
 @import "objects.grid";
+@import "objects.list";
