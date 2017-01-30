@@ -2,42 +2,40 @@
 layout: default
 ---
 
-<div class="[ o-grid o-grid-large ]">
-  <aside class="o-half-width">
-    <p>This is how we do.</p>
-  </aside>
+{% include line.html line="This is how we do." bg-color="bg-green" %}
 
-  <main class="o-half-width">
-    <p>
-      At laruche we strongly believe that a good process is the key to success.
-    </p>
+<div class="ph4 ph5-m ph6-l">
+  {% include components/header.html
+      title="Process"
+      subtitle="At laruche we strongly believe that a great process is the key to success."
+  %}
+</div>
 
-    <p>
-      In every steps of the process, we tend to be accountable to the client
-      and to work alongside them, bringing its thoughts at every instant of the
-      project.
-    </p>
-
-    <h2>1. Initial Meeting</h2>
-
-    <p>
+<div class="ph4 ph5-m ph6-l flex flex-column flex-row-l">
+  <div class="w-100 w-50-l mr4-l pb4 bb bn-l b--light-gray">
+    <h2 class="mt0">1. Initial Meeting</h2>
+    <p class="mb0 lh-copy">
       We start with an initial meeting to introduce ourselves, and learn about
       our clients vision, real needs, and hidden desires.
     </p>
+  </div>
 
-    <h2>2. Work Process</h2>
-
-    <p>
+  <div class="w-100 w-50-l ml4-l pv4 pt0-l bb bn-l b--light-gray">
+    <h2 class="mt0">2. Work Process</h2>
+    <p class="mb0 lh-copy">
       In this process, we will work closely with the client to propose our
       vision, make it happen, then get the client's feeback to find ways to
       improve it.
     </p>
+  </div>
+</div>
 
-    <h2>3. Follow-up</h2>
-
-    <p>
+<div class="ph4 ph5-m ph6-l flex flex-column flex-row-l mb4 mb5-m mb6-l">
+  <div class="w-100 w-50-l mr4-l pv4 bb bn-l b--light-gray">
+    <h2 class="mt0">3. Follow-up</h2>
+    <p class="mb0 lh-copy">
       At the end of our job, we stay in touch with the client to make sure our
       solution goes well.
     </p>
-  </main>
+  </div>
 </div>
