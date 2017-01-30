@@ -4,33 +4,57 @@ layout: default
 
 {% include line.html line="Get to know who we are." bg-color="bg-blue" %}
 
-<div class="[ o-grid o-grid-large ]">
+<div class="ph4 ph5-m ph6-l">
+  {% include components/header.html
+      title="About"
+      subtitle="At laruche we are humans, with BIG motivation."
+  %}
+</div>
 
-  <main class="o-half-width">
-    <h2>Our Philosophy</h2>
+<div class="ph4 ph5-m ph6-l mb4 mb5-m mb6-l">
+  <section class="measure-wide">
+    <h2 class="mt0">Our Philosophy</h2>
 
-    <p>
+    <p class="lh-copy">
       Our mission is to simplify our clients and collaborators' processes,
       imaging unique solutions.
     </p>
 
-    <p>
+    <p class="lh-copy">
       We try to work alonside the clients toward the goal, in order to not only
       achieve the project but also involve the client during the build phase.
     </p>
 
-    <p>
+    <p class="lh-copy">
       We value open source works. We are enthusiastic about integrating them to
       our projects or creating some that might help someone or could receive
       the help of the community.
     </p>
+  </section>
 
-    <h2>Meet The Team</h2>
+  <section class="pt4">
+    <h2 class="mt0">Meet The Team</h2>
 
-    <img src="http://placehold.it/200x200" alt="Julien Grünhagel">
-    <strong>Julien Grünhagel</strong>
+    <div class="flex flex-column flex-row-l center">
+        <div class="w-100 mw6-m center mr3-l">
+        {% include components/team.html
+            name="Julien Grünhagel"
+            description="XYZ"
+        %}
+      </div>
+      <div class="w-100 mw6-m center mh3-l mt3 mt0-l">
+        {% include components/team.html
+            name="Maxime Rossier"
+            description="???"
+        %}
+      </div>
+      <div class="w-100 mw6-m center mh3-l mt3 mt0-l">
+        {% include components/team.html
+            name="You?"
+            description="Come join the rebellion."
+        %}
+      </div>
+    </div>
+  </section>
 
-    <img src="http://placehold.it/200x200" alt="Maxime Rossier">
-    <strong>Maxime Rossier</strong>
-  </main>
 </div>
