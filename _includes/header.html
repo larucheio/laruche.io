@@ -21,12 +21,12 @@
   </head>
   <body class="sans-serif">
     <nav class="db dt-l w-100 border-box pa3">
-      <a class="db dtc-l v-mid black hover-red link tc tl-l mb3 mb0-l" href="/" title="Home">laruche</a>
+      <a class="db dtc-l v-mid black hover-red link tc tl-l mb3 mb0-l" href="/{{ page.language }}/" title="laruche">laruche</a>
       <div class="db dtc-l v-mid tc tr-l">
-        <a class="link black hover-red f5 f5-l dib mr3 mr4-l mb2 mb0-l" href="/" title="Home">Home</a>
-        <a class="link black hover-red f5 f5-l dib mr3 mr4-l mb2 mb0-l" href="/services/" title="Services">Services</a>
-        <a class="link black hover-red f5 f5-l dib mr3 mr4-l mb2 mb0-l" href="/process/" title="Process">Process</a>
-        <a class="link black hover-red f5 f5-l dib mr3 mr4-l mb2 mb0-l" href="/about/" title="About">About</a>
-        <a class="link black hover-red f5 f5-l dib" href="/contact/" title="Contact">Contact</a>
+        <a class="link black hover-red f5 f5-l dib mr3 mr4-l mb2 mb0-l" href="/{{ page.language }}/" title="{% t 'home.title' %}">{% t 'home.title' %}</a>
+        <a class="link black hover-red f5 f5-l dib mr3 mr4-l mb2 mb0-l" href="/{{page.language}}/{% t 'services.slug' %}/" title="{% t 'services.title' %}">{% t 'services.title' %}</a>
+        <a class="link black hover-red f5 f5-l dib mr3 mr4-l mb2 mb0-l" href="/{{page.language}}/{% t 'process.slug' %}/" title="{% t 'process.title' %}">{% t 'process.title' %}</a>
+        <a class="link black hover-red f5 f5-l dib mr3 mr4-l mb2 mb0-l" href="/{{page.language}}/{% t 'about.slug' %}/" title="{% t 'about.title' %}">{% t 'about.title' %}</a>
+        <a class="link black hover-red f5 f5-l dib" href="/{{page.language}}/{% t 'contact.slug' %}/" title="{% t 'contact.title' %}">{% t 'contact.title' %}</a>
       </div>
     </nav>

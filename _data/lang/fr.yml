@@ -3,6 +3,8 @@ lang:
   fr: Français
 
 home:
+  slug: accueil
+  title: Accueil
   line: laruche is a full-service web agency based in Geneva.
   subtitle: >
     Dans un monde en constant changement, vous devz vous concentrer sur ce qui
@@ -11,6 +13,7 @@ home:
     ce qui vous tient à coeur.
 
 services:
+  slug: services
   line: What we can do for you.
   title: Services
   subtitle: >
@@ -61,6 +64,7 @@ services:
       informatique.
 
 process:
+  slug: processus
   line: This is how we do.
   title: Processus
   subtitle: >
@@ -86,6 +90,7 @@ process:
       garantir une qualité de service optimale.
 
 about:
+  slug: a-propos
   line: Nous sommes Maxime et Julien
   title: À propos
   subtitle: À laruche nous sommes humains, avec une ÉNORME motivation.
@@ -118,6 +123,7 @@ about:
       description: Viens rejoindre les rebelles.
 
 contact:
+  slug: contact
   line: Laisse nous un message.
   title: Contact
   subtitle: >
