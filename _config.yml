@@ -4,3 +4,6 @@ exclude: [
   'readme.md',
   'vendor'
   ]
+
+gems:
+- jekyll-language-plugin
