@@ -21,32 +21,32 @@
     </script>
   </head>
   <body class="sans-serif">
-    <nav class="db dt-ns w-100 border-box">
-      <a class="db dtc-ns w3-ns hover-white hover-bg-light-red bg-animate link black f4 tl ph3 pv3 pv0-ns" href="/{{page.language}}/" title="laruche">laruche</a>
+    <nav class="db dt-l w-100 border-box">
+      <a class="db dtc-l w3-l hover-white hover-bg-light-red bg-animate link black f4 tl ph3 pv3 pv0-l" href="/{{page.language}}/" title="laruche">laruche</a>
       <input id="toggle" type="checkbox" autocomplete="off">
-      <label class="toggle-container top-0 right-0 fixed pv2 ph3 z-1 tc pointer dn-ns tap-highlight-transparent" for="toggle">
+      <label class="toggle-container top-0 right-0 fixed pv2 ph3 z-1 tc pointer dn-l tap-highlight-transparent" for="toggle">
         <div class="bar1 w2 h1 bg-red"></div>
         <div class="bar2 w2 bg-green"></div>
         <div class="bar3 w2 bg-blue"></div>
         <p class="ma0 f5">menu</p>
       </label>
-      <div class="drawer-left fixed static-ns top-0 w-100 h-100 bg-white overflow-auto tr-ns">
-        <a class="hover-bg-light-red bg-animate link black f5 pa3 ph2-m db dib-ns" href="/{{page.language}}/" title="{% t 'home.title' %}">{% t 'home.title' %}</a>
-        <a class="hover-bg-light-purple bg-animate link black f5 pa3 ph2-m db dib-ns" href="/{{page.language}}/{% t 'services.slug' %}/" title="{% t 'services.title' %}">{% t 'services.title' %}</a>
-        <a class="hover-bg-green bg-animate link black f5 pa3 ph2-m db dib-ns" href="/{{page.language}}/{% t 'process.slug' %}/" title="{% t 'process.title' %}">{% t 'process.title' %}</a>
-        <a class="hover-bg-blue bg-animate link black f5 pa3 ph2-m db dib-ns" href="/{{page.language}}/{% t 'about.slug' %}/" title="{% t 'about.title' %}">{% t 'about.title' %}</a>
-        <a class="hover-bg-gold bg-animate link black f5 pa3 ph2-m db dib-ns" href="/{{page.language}}/{% t 'contact.slug' %}/" title="{% t 'contact.title' %}">{% t 'contact.title' %}</a>
+      <div class="drawer-left fixed static-l top-0 w-100 h-100 bg-white overflow-auto tr-l">
+        <a class="hover-bg-light-red bg-animate link black f5 pa3 ph2-m db dib-l" href="/{{page.language}}/" title="{% t 'home.title' %}">{% t 'home.title' %}</a>
+        <a class="hover-bg-light-purple bg-animate link black f5 pa3 ph2-m db dib-l" href="/{{page.language}}/{% t 'services.slug' %}/" title="{% t 'services.title' %}">{% t 'services.title' %}</a>
+        <a class="hover-bg-green bg-animate link black f5 pa3 ph2-m db dib-l" href="/{{page.language}}/{% t 'process.slug' %}/" title="{% t 'process.title' %}">{% t 'process.title' %}</a>
+        <a class="hover-bg-blue bg-animate link black f5 pa3 ph2-m db dib-l" href="/{{page.language}}/{% t 'about.slug' %}/" title="{% t 'about.title' %}">{% t 'about.title' %}</a>
+        <a class="hover-bg-gold bg-animate link black f5 pa3 ph2-m db dib-l" href="/{{page.language}}/{% t 'contact.slug' %}/" title="{% t 'contact.title' %}">{% t 'contact.title' %}</a>
         {% if page.subset != 'home' %}
           {% if page.language == 'en' %}
-            <a class="hover-bg-pink bg-animate link black f5 pa3 ph2-m db dib-ns" href="/fr/{{ site.data.lang.fr.[page.subset].slug }}/" title="{% tl 'fr' %}">{% tl 'fr' %}</a>
+            <a class="hover-bg-pink bg-animate link black f5 pa3 ph2-m db dib-l" href="/fr/{{ site.data.lang.fr.[page.subset].slug }}/" title="{% tl 'fr' %}">{% tl 'fr' %}</a>
           {% else %}
-            <a class="hover-bg-pink bg-animate link black f5 pa3 ph2-m db dib-ns" href="/en/{{ site.data.lang.en.[page.subset].slug }}/" title="{% tl 'en' %}">{% tl 'en' %}</a>
+            <a class="hover-bg-pink bg-animate link black f5 pa3 ph2-m db dib-l" href="/en/{{ site.data.lang.en.[page.subset].slug }}/" title="{% tl 'en' %}">{% tl 'en' %}</a>
           {% endif %}
         {% else %}
           {% if page.language == 'en' %}
-            <a class="hover-bg-pink bg-animate link black f5 pa3 ph2-m db dib-ns" href="/fr/" title="{% tl 'fr' %}">{% tl 'fr' %}</a>
+            <a class="hover-bg-pink bg-animate link black f5 pa3 ph2-m db dib-l" href="/fr/" title="{% tl 'fr' %}">{% tl 'fr' %}</a>
           {% else %}
-            <a class="hover-bg-pink bg-animate link black f5 pa3 ph2-m db dib-ns" href="/en/" title="{% tl 'en' %}">{% tl 'en' %}</a>
+            <a class="hover-bg-pink bg-animate link black f5 pa3 ph2-m db dib-l" href="/en/" title="{% tl 'en' %}">{% tl 'en' %}</a>
           {% endif %}
         {% endif %}
       </div>
