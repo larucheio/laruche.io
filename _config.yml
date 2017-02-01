@@ -6,8 +6,7 @@ exclude: [
   ]
 
 gems:
-- jekyll-language-plugin
+  - jekyll-language-plugin
 
 languages: ['en', 'fr']
 language_data: data.lang.%%
-language_includes_dir: _i18n
