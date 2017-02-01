@@ -4,3 +4,6 @@ exclude: [
   'readme.md',
   'vendor'
   ]
+
+sass:
+    style: compressed
