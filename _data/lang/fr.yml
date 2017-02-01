@@ -5,7 +5,7 @@ lang:
 home:
   slug: accueil
   title: Accueil
-  line: laruche is a full-service web agency based in Geneva.
+  line: laruche est une agence web basée à Genève.
   subtitle: >
     Dans un monde en constant changement, vous devez vous concentrer sur ce qui
     vous est important. C'est pourquoi nous nous sommes spécialisés dans
@@ -14,7 +14,7 @@ home:
 
 services:
   slug: services
-  line: What we can do for you.
+  line: Un ensemble de services à votre disposition.
   title: Services
   subtitle: >
     À laruche nous offrons une gamme complète de services allant du consulting
@@ -65,7 +65,7 @@ services:
 
 process:
   slug: processus
-  line: This is how we do.
+  line: Avec passion, rigueur et méticulosité.
   title: Processus
   subtitle: >
     À laruche nous sommes convaincus qu'un processus de qualité est la clef du
@@ -124,7 +124,7 @@ about:
 
 contact:
   slug: contact
-  line: Laisse nous un message.
+  line: Laissez nous un message.
   title: Contact
   subtitle: >
     C'est avec le plus grand des plaisir que nous répondrons à vos questions,
