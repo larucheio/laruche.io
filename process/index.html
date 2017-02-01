@@ -1,41 +1,39 @@
 ---
 layout: default
+languages:
+- en
+- fr
+subset: process
+permalink: /:language/:t.slug/
 ---
 
-{% include line.html line="This is how we do." bg-color="bg-green" %}
+{% capture line %}{% t 'line' %}{% endcapture %}
+{% include line.html line=line bg-color="bg-green" %}
 
 <div class="ph4 ph5-m ph6-l">
+  {% capture title %}{% t 'title' %}{% endcapture %}
+  {% capture subtitle %}{% t 'subtitle' %}{% endcapture %}
   {% include components/header.html
-      title="Process"
-      subtitle="At laruche we strongly believe that a great process is the key to success."
+      title=title
+      subtitle=subtitle
   %}
 </div>
 
 <div class="ph4 ph5-m ph6-l flex flex-column flex-row-l">
   <div class="w-100 w-50-l mr4-l pb4 bb bn-l b--light-gray">
-    <h2 class="mt0">1. Initial Meeting</h2>
-    <p class="mb0 lh-copy">
-      We start with an initial meeting to introduce ourselves, and learn about
-      our clients vision, real needs, and hidden desires.
-    </p>
+    <h2 class="mt0">{% t 'process1.title' %}</h2>
+    <p class="mb0 lh-copy">{% t 'process1.description' %}</p>
   </div>
 
   <div class="w-100 w-50-l ml4-l pv4 pt0-l bb bn-l b--light-gray">
-    <h2 class="mt0">2. Work Process</h2>
-    <p class="mb0 lh-copy">
-      In this process, we will work closely with the client to propose our
-      vision, make it happen, then get the client's feedback to find ways to
-      improve it.
-    </p>
+    <h2 class="mt0">{% t 'process2.title' %}</h2>
+    <p class="mb0 lh-copy">{% t 'process2.description' %}</p>
   </div>
 </div>
 
 <div class="ph4 ph5-m ph6-l flex flex-column flex-row-l mb4 mb5-m mb6-l">
   <div class="w-100 w-50-l mr4-l pv4 bb bn-l b--light-gray">
-    <h2 class="mt0">3. Follow-up</h2>
-    <p class="mb0 lh-copy">
-      At the end of our job, we stay in touch with the client to make sure our
-      solution goes well.
-    </p>
+    <h2 class="mt0">{% t 'process3.title' %}</h2>
+    <p class="mb0 lh-copy">{% t 'process3.description' %}</p>
   </div>
 </div>

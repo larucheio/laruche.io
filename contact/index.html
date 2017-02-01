@@ -1,16 +1,22 @@
 ---
 layout: default
+languages:
+- en
+- fr
+subset: contact
+permalink: /:language/:t.slug/
 ---
 
-{% include line.html line="Drop us a line." bg-color="bg-gold" %}
+{% capture line %}{% t 'line' %}{% endcapture %}
+{% include line.html line=line bg-color="bg-gold" %}
 
 <div class="ph4 ph5-m ph6-l">
-
+  {% capture title %}{% t 'title' %}{% endcapture %}
+  {% capture subtitle %}{% t 'subtitle' %}{% endcapture %}
   {% include components/header.html
-      title="Contact"
-      subtitle="We would love to hear from you. Feel free to contact us for information, projects or simply to say hi!"
+      title=title
+      subtitle=subtitle
   %}
-
 </div>
 
 <section class="tc mb4 mb5-m mb6-l">

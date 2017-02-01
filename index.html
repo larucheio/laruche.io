@@ -1,12 +1,19 @@
 ---
 layout: default
+languages:
+- en
+- fr
+subset: home
+permalink: /:language/index.html
 ---
 
-{% include line.html line="laruche is a full-service web agency based in Geneva." bg-color="bg-light-red" %}
+{% capture line %}{% t 'line' %}{% endcapture %}
+{% include line.html line=line bg-color="bg-light-red" %}
 
 <div class="ph4 ph5-m ph6-l">
+  {% capture subtitle %}{% t 'subtitle' %}{% endcapture %}
   {% include components/header.html
       title=""
-      subtitle="In a constantly changing world, you need to focus on what’s important to you. That’s why at laruche we are specializing in improving your workflows so you can be more efficient at doing what you love."
+      subtitle=subtitle
   %}
 </div>

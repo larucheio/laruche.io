@@ -1,0 +1,121 @@
+lang:
+  en: English
+  fr: Français
+
+home:
+  slug: home
+  title: Home
+  line: laruche is a full-service web agency based in Geneva.
+  subtitle: >
+    In a constantly changing world, you need to focus on what’s important to
+    you. That’s why at laruche we are specializing in improving your
+    workflows so you can be more efficient at doing what you love.
+
+services:
+  slug: services
+  line: What we can do for you.
+  title: Services
+  subtitle: >
+    At laruche we are providing a whole range of services such as consulting,
+    project management, training and development.
+  service1:
+    title: Consulting
+    description: >
+      Regardless of the question, we are here to answer it. From legacy systems
+      to next tendencies like blockchain, we can provide you priceless insights
+      so you can make informed decisions.
+  service2:
+    title: Cloud Solutions
+    description: >
+      You have a current solution and you need an audit, you want to reduce
+      your running costs. We can help you to tailor your infrastructure in
+      order to improve your process.
+  service3:
+    title: Development
+    description: >
+      Our web development expertise area range from static website to fully
+      featured web/mobile application. We use state-of-the-art technologies
+      and we have a team ready for any projects. We can also provide you
+      in-house developers to complete your team.
+  service4:
+    title: Training
+    description: >
+      We can provide specialized training for you and your team. From Project
+      Management to Continuous Deployment workflow through front-end tooling,
+      backend and infrastructure.
+  service5:
+    title: Audit
+    description: >
+      Wondering if your website or application is following the standards, if
+      a previous IT job was done correctly or simply to audit some aspects
+      like design, code quality or security, we have a checklist that helps
+      us provide our customers with a complete report from the audit.
+  service6:
+    title: IT Support
+    description: >
+      If you encounter some problems with your computers, security problems
+      or general IT related questions, we offer our expertize for your IT
+      infrastructure.
+
+process:
+  slug: process
+  line: This is how we do.
+  title: Process
+  subtitle: >
+    At laruche we strongly believe that a great process is the key to success.
+  process1:
+    title: 1. Initial Meeting
+    description: >
+      We start with an initial meeting to introduce ourselves, and learn about
+      our clients vision, real needs, and hidden desires.
+  process2:
+    title: 2. Work Process
+    description: >
+      In this process, we will work closely with the client to propose our
+      vision, make it happen, then get the client's feedback to find ways to
+      improve it.
+  process3:
+    title: 3. Follow-up
+    description: >
+      At the end of our job, we stay in touch with the client to make sure our
+      solution goes well.
+
+about:
+  slug: about
+  line: We are Julien & Maxime.
+  title: About
+  subtitle: At laruche we are humans, with BIG motivation.
+  philosophy:
+    title: Our Philosophy
+    text: >
+      Our mission is to simplify our clients and collaborators' processes,
+      imaging unique solutions.<br><br>
+
+      We try to work alongside the clients toward the goal, in order to not
+      only finish the project but also involve the client during the build
+      phase.<br><br>
+
+      We value open source works. We are enthusiastic about integrating them to
+      our projects or creating some that might help someone or could receive
+      the help of the community.
+  team:
+    title: Meet The Team
+    julien:
+      name: Julien Grünhagel
+      description: >
+        The founder of laruche who focuses on project management and consulting
+        to ensure we deliver the best quality in our area.
+    maxime:
+      name: Maxime Rossier
+      description: ???
+    you:
+      name: You?
+      description: Come join the rebellion.
+
+contact:
+  slug: contact
+  line: Drop us a line.
+  title: Contact
+  subtitle: >
+    We would love to hear from you. Feel free to contact us for information,
+    projects or simply to say hi!

@@ -1,73 +1,56 @@
 ---
 layout: default
+languages:
+- en
+- fr
+subset: services
+permalink: /:language/:t.slug/
 ---
 
-{% include line.html line="What we can do for you." bg-color="bg-light-purple" %}
+{% capture line %}{% t 'line' %}{% endcapture %}
+{% include line.html line=line bg-color="bg-light-purple" %}
 
 <div class="ph4 ph5-m ph6-l">
+  {% capture title %}{% t 'title' %}{% endcapture %}
+  {% capture subtitle %}{% t 'subtitle' %}{% endcapture %}
   {% include components/header.html
-      title="Services"
-      subtitle="At laruche we are providing a whole range of services such as consulting, project management, training and development."
+      title=title
+      subtitle=subtitle
   %}
 </div>
 
 <div class="ph4 ph5-m ph6-l flex flex-column flex-row-l">
   <div class="w-100 w-50-l mr4-l pb4 bb bn-l b--light-gray">
-    <h2 class="mt0">Consulting</h2>
-    <p class="mb0 lh-copy">
-      Regardless of the question, we are here to answer it. From legacy systems
-      to next tendencies like blockchain, we can provide you priceless insights
-      so you can make informed decisions.
-    </p>
+    <h2 class="mt0">{% t 'service1.title' %}</h2>
+    <p class="mb0 lh-copy">{% t 'service1.description'%}</p>
   </div>
 
   <div class="w-100 w-50-l ml4-l pv4 pt0-l bb bn-l b--light-gray">
-    <h2 class="mt0">Cloud Solutions</h2>
-    <p class="mb0 lh-copy">
-      You have a current solution and you need an audit, you want to reduce
-      your running costs. We can help you to tailor your infrastructure in
-      order to improve your process.
-    </p>
+    <h2 class="mt0">{% t 'service2.title' %}</h2>
+    <p class="mb0 lh-copy">{% t 'service2.description'%}</p>
   </div>
 </div>
 
 <div class="ph4 ph5-m ph6-l flex flex-column flex-row-l">
   <div class="w-100 w-50-l mr4-l pv4 bb bn-l b--light-gray">
-    <h2 class="mt0">Development</h2>
-    <p class="mb0 lh-copy">
-      Our web development expertise area range from static website to fully
-      featured web/mobile application. We use state-of-the-art technologies
-      and we have a team ready for any projects. We can also provide you
-      in-house developers to complete your team.
-    </p>
+    <h2 class="mt0">{% t 'service3.title' %}</h2>
+    <p class="mb0 lh-copy">{% t 'service3.description'%}</p>
   </div>
 
   <div class="w-100 w-50-l ml4-l pv4 bb bn-l b--light-gray">
-    <h2 class="mt0">Training</h2>
-    <p class="mb0 lh-copy">
-      We can provide specialized training for you and your team. From Project
-      Management to Continuous Deployment workflow through front-end tooling,
-      backend and infrastructure.
-    </p>
+    <h2 class="mt0">{% t 'service4.title' %}</h2>
+    <p class="mb0 lh-copy">{% t 'service4.description'%}</p>
   </div>
 </div>
 
 <div class="ph4 ph5-m ph6-l flex flex-column flex-row-l mb4 mb5-m mb6-l">
   <div class="w-100 w-50-l mr4-l pv4 bb bn-l b--light-gray">
-    <h2 class="mt0">Audit</h2>
-    <p class="mb0 lh-copy">
-      Wondering if your website or application is following the standards, if a
-      previous IT job was done correctly or simply to audit some aspects like
-      design, code quality or security, we have a checklist that helps us
-      provide our customers with a complete report from the audit.
+    <h2 class="mt0">{% t 'service5.title' %}</h2>
+    <p class="mb0 lh-copy">{% t 'service5.description'%}</p>
   </div>
 
   <div class="w-100 w-50-l ml4-l pt4">
-    <h2 class="mt0">IT Support</h2>
-    <p class="mb0 lh-copy">
-      If you encounter some problems with your computers, security problems or
-      general IT related questions, we offer our expertize for your IT
-      infrastructure.
-    </p>
+    <h2 class="mt0">{% t 'service6.title' %}</h2>
+    <p class="mb0 lh-copy">{% t 'service6.description'%}</p>
   </div>
 </div>
