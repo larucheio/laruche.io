@@ -1,12 +1,16 @@
 exclude: [
   'Gemfile',
   'Gemfile.lock',
+  'license.md',
   'readme.md',
   'vendor'
   ]
 
 gems:
   - jekyll-language-plugin
+
+sass:
+    style: compressed
 
 languages: ['en', 'fr']
 language_data: data.lang.%%
