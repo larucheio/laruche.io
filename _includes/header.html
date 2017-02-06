@@ -31,11 +31,11 @@
         <p class="ma0 f5">menu</p>
       </label>
       <div class="drawer-left fixed static-l top-0 w-100 h-100 bg-white overflow-auto tr-l">
-        <a class="hover-bg-light-red bg-animate link black f5 pa3 ph2-m db dib-l" href="/{{page.language}}/" title="{% t 'home.title' %}">{% t 'home.title' %}</a>
-        <a class="hover-bg-light-purple bg-animate link black f5 pa3 ph2-m db dib-l" href="/{{page.language}}/{% t 'services.slug' %}/" title="{% t 'services.title' %}">{% t 'services.title' %}</a>
-        <a class="hover-bg-green bg-animate link black f5 pa3 ph2-m db dib-l" href="/{{page.language}}/{% t 'process.slug' %}/" title="{% t 'process.title' %}">{% t 'process.title' %}</a>
-        <a class="hover-bg-blue bg-animate link black f5 pa3 ph2-m db dib-l" href="/{{page.language}}/{% t 'about.slug' %}/" title="{% t 'about.title' %}">{% t 'about.title' %}</a>
-        <a class="hover-bg-gold bg-animate link black f5 pa3 ph2-m db dib-l" href="/{{page.language}}/{% t 'contact.slug' %}/" title="{% t 'contact.title' %}">{% t 'contact.title' %}</a>
+        <a class="hover-bg-light-red bg-animate link black f5 pa3 ph2-m db dib-l {% if page.subset == 'home' %}bg-light-red{% endif %}" href="/{{page.language}}/" title="{% t 'home.title' %}">{% t 'home.title' %}</a>
+        <a class="hover-bg-light-purple bg-animate link black f5 pa3 ph2-m db dib-l {% if page.subset == 'services' %}bg-light-purple{% endif %}" href="/{{page.language}}/{% t 'services.slug' %}/" title="{% t 'services.title' %}">{% t 'services.title' %}</a>
+        <a class="hover-bg-green bg-animate link black f5 pa3 ph2-m db dib-l {% if page.subset == 'process' %}bg-green{% endif %}" href="/{{page.language}}/{% t 'process.slug' %}/" title="{% t 'process.title' %}">{% t 'process.title' %}</a>
+        <a class="hover-bg-blue bg-animate link black f5 pa3 ph2-m db dib-l {% if page.subset == 'about' %}bg-blue{% endif %}" href="/{{page.language}}/{% t 'about.slug' %}/" title="{% t 'about.title' %}">{% t 'about.title' %}</a>
+        <a class="hover-bg-gold bg-animate link black f5 pa3 ph2-m db dib-l {% if page.subset == 'contact' %}bg-gold{% endif %}" href="/{{page.language}}/{% t 'contact.slug' %}/" title="{% t 'contact.title' %}">{% t 'contact.title' %}</a>
         {% if page.subset != 'home' %}
           {% if page.language == 'en' %}
             <a class="hover-bg-pink bg-animate link black f5 pa3 ph2-m db dib-l" href="/fr/{{ site.data.lang.fr.[page.subset].slug }}/" title="{% tl 'fr' %}">{% tl 'fr' %}</a>
