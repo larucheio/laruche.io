@@ -7,8 +7,8 @@ home:
   title: Home
   line: laruche is a full-service web agency based in Geneva.
   subtitle: >
-    In a constantly changing world, you need to focus on what’s important to
-    you. That’s why at laruche we are specializing in improving your
+    ⸻ In a constantly changing world, you need to focus on what’s important
+    to you. That’s why at laruche we are specializing in improving your
     workflows so you can be more efficient at doing what you love.
 
 services:
@@ -54,7 +54,7 @@ services:
     title: IT Support
     description: >
       If you encounter some problems with your computers, security problems
-      or general IT related questions, we offer our expertize for your IT
+      or general IT-related questions, we offer our expertize for your IT
       infrastructure.
 
 process:
@@ -72,7 +72,7 @@ process:
     title: 2. Work Process
     description: >
       In this process, we will work closely with the client to propose our
-      vision, make it happen, then get the client's feedback to find ways to
+      vision, make it happen, then get the client’s feedback to find ways to
       improve it.
   process3:
     title: 3. Follow-up
@@ -88,7 +88,7 @@ about:
   philosophy:
     title: Our Philosophy
     text: >
-      Our mission is to simplify our clients and collaborators' processes,
+      Our mission is to simplify our clients and collaborators’ processes,
       imaging unique solutions.<br><br>
 
       We try to work alongside the clients toward the goal, in order to not
