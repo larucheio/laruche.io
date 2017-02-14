@@ -7,9 +7,9 @@ home:
   title: Accueil
   line: laruche est une agence web basée à Genève.
   subtitle: >
-    Dans un monde en constant changement, vous devez vous concentrer sur ce qui
-    vous est important. C'est pourquoi nous nous sommes spécialisés dans
-    l'optimisation de vos processus afin que vous ayez plus de temps pour faire
+    ⸻ Dans un monde en constant changement, vous devez vous concentrer sur
+    ce qui vous est important. C’est pourquoi nous nous sommes spécialisés dans
+    l’optimisation de vos processus afin que vous ayez plus de temps pour faire
     ce qui vous tient à coeur.
 
 services:
@@ -18,26 +18,26 @@ services:
   title: Services
   subtitle: >
     À laruche nous offrons une gamme complète de services allant du consulting
-    jusqu'au management de projet ainsi que des formations à la carte et du
+    jusqu’au management de projet ainsi que des formations à la carte et du
     développement.
   service1:
     title: Conseil
     description: >
-      Qu'importe la question, nous sommes la pour y répondre. Des systèmes
-      existants jusqu'au technologies de demain comme blockchain, nous pouvons
+      Qu’importe la question, nous sommes la pour y répondre. Des systèmes
+      existants jusqu’au technologies de demain comme blockchain, nous pouvons
       vous donner des informations inestimables afin que vous puissiez prendre
       des décisions informées.
   service2:
     title: Solutions Cloud
     description: >
-      Vous avez une solution existante et vous avez besoin d'un audit ou que
+      Vous avez une solution existante et vous avez besoin d’un audit ou que
       vous souhaitiez réduire vos coûts opérationnels, nous pouvons vous aider
-      à adapter votre infrastructure afin d'améliorer vos processus.
+      à adapter votre infrastructure afin d’améliorer vos processus.
   service3:
     title: Développement
     description: >
-      Notre domaine d'expertise en développement s'étend du site web statique à
-      l'application web / mobile complète. Nous utilisons des technologies de
+      Notre domaine d’expertise en développement s’étend du site web statique à
+      l’application web / mobile complète. Nous utilisons des technologies de
       pointe et nous avons une équipe prête pour tous les projets. Nous pouvons
       également vous fournir des développeurs internes pour compléter votre
       équipe.
@@ -45,8 +45,8 @@ services:
     title: Formations
     description: >
       Nous pouvons vous offrir une formation spécialisée pour vous et votre
-      équipe. De la gestion de projet au déploiement continu jusqu'au outils
-      front-end, les applications backend et l'infrastructure.
+      équipe. De la gestion de projet au déploiement continu jusqu’au outils
+      front-end, les applications backend et l’infrastructure.
   service5:
     title: Audit
     description: >
@@ -60,7 +60,7 @@ services:
     description: >
       Si vous rencontrez des problèmes avec vos ordinateurs, des problèmes de
       sécurité ou des questions générales liées aux technologies de
-      l'information, nous offrons notre expertise pour votre infrastructure
+      l’information, nous offrons notre expertise pour votre infrastructure
       informatique.
 
 process:
@@ -68,7 +68,7 @@ process:
   line: Avec passion, rigueur et méticulosité.
   title: Processus
   subtitle: >
-    À laruche nous sommes convaincus qu'un processus de qualité est la clef du
+    À laruche nous sommes convaincus qu’un processus de qualité est la clef du
     succès.
   process1:
     title: 1. Première rencontre
@@ -81,7 +81,7 @@ process:
     description: >
       Durant ce processus, nous travaillons en étroite collaboration avec vous
       afin de matérialiser votre vision. Nous travaillons de manière itérative
-      avec des feedbacks réguliers de votre part afin d'être constamment dans
+      avec des feedbacks réguliers de votre part afin d’être constamment dans
       la bonne direction.
   process3:
     title: 3. Suivi de projet
@@ -104,11 +104,11 @@ about:
       seulement afin de matérialiser le projet mais également afin de vous
       intégrer pendant la phase de construction.<br><br>
 
-      Nous apprécions l'open-source et nous sommes enthousiaste à l'idée de
-      créer, participer et utiliser des solutions ouvertes afin d'aider et de
-      recevoir de l'aide de la communauté.
+      Nous apprécions l’open-source et nous sommes enthousiaste à l’idée de
+      créer, participer et utiliser des solutions ouvertes afin d’aider et de
+      recevoir de l’aide de la communauté.
   team:
-    title: Rencontre l'équipe
+    title: Rencontre l’équipe
     julien:
       name: Julien Grünhagel
       description: >
@@ -117,7 +117,7 @@ about:
         miel de la région.
     maxime:
       name: Maxime Rossier
-      description: Ingénieur logiciel, celui qui s'occupe de mettre tous vos
+      description: Ingénieur logiciel, celui qui s’occupe de mettre tous vos
         besoins et envies à portée de main.
     you:
       name: Toi?
@@ -128,5 +128,5 @@ contact:
   line: Laissez nous un message.
   title: Contact
   subtitle: >
-    C'est avec le plus grand des plaisir que nous répondrons à vos questions,
-    demandes d'informations ou projets.
+    C’est avec le plus grand des plaisir que nous répondrons à vos questions,
+    demandes d’informations ou projets.
