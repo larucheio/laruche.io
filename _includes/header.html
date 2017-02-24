@@ -33,7 +33,7 @@
     <div class="fixed w-100 bg-white top-0">
       <nav class="flex justify-between">
 
-        <a class="flex items-center link black hover-white hover-bg-light-red bg-animate pa3" href="/{{page.language}}/" title="laruche">
+        <a class="flex items-center link black hover-gold pa3" href="/{{page.language}}/" title="laruche">
           <img src="/img/laruche-logo.svg" alt="laruche's logo" class="h2 mr3">
           <span class="f4">laruche</span>
         </a>
@@ -47,22 +47,22 @@
         </label>
 
         <div class="menu flex-l order-1 overflow-auto fixed static-l w-100 w-auto-l h-100 h-auto-l bg-white">
-          <a class="flex items-center hover-bg-light-red bg-animate bl bw2 b--light-red bn-l link black pa3 {% if page.subset == 'home' %}bg-light-red{% endif %}" href="/{{page.language}}/" title="{% t 'home.title' %}">{% t 'home.title' %}</a>
-          <a class="flex items-center hover-bg-light-purple bg-animate bl bw2 b--light-purple bn-l link black pa3 {% if page.subset == 'services' %}bg-light-purple{% endif %}" href="/{{page.language}}/{% t 'services.slug' %}/" title="{% t 'services.title' %}">{% t 'services.title' %}</a>
-          <a class="flex items-center hover-bg-green bg-animate bl bw2 b--green bn-l link black pa3 {% if page.subset == 'process' %}bg-green{% endif %}" href="/{{page.language}}/{% t 'process.slug' %}/" title="{% t 'process.title' %}">{% t 'process.title' %}</a>
-          <a class="flex items-center hover-bg-blue bg-animate bl bw2 b--blue bn-l link black pa3 {% if page.subset == 'about' %}bg-blue{% endif %}" href="/{{page.language}}/{% t 'about.slug' %}/" title="{% t 'about.title' %}">{% t 'about.title' %}</a>
-          <a class="flex items-center hover-bg-gold bg-animate bl bw2 b--gold bn-l link black pa3 {% if page.subset == 'contact' %}bg-gold{% endif %}" href="/{{page.language}}/{% t 'contact.slug' %}/" title="{% t 'contact.title' %}">{% t 'contact.title' %}</a>
+          <a class="flex items-center hover-gold bl bw2 b--light-red bn-l link black pa3 {% if page.subset == 'home' %}gold{% endif %}" href="/{{page.language}}/" title="{% t 'home.title' %}">{% t 'home.title' %}</a>
+          <a class="flex items-center hover-gold bl bw2 b--light-purple bn-l link black pa3 {% if page.subset == 'services' %}gold{% endif %}" href="/{{page.language}}/{% t 'services.slug' %}/" title="{% t 'services.title' %}">{% t 'services.title' %}</a>
+          <a class="flex items-center hover-gold bl bw2 b--green bn-l link black pa3 {% if page.subset == 'process' %}gold{% endif %}" href="/{{page.language}}/{% t 'process.slug' %}/" title="{% t 'process.title' %}">{% t 'process.title' %}</a>
+          <a class="flex items-center hover-gold bl bw2 b--blue bn-l link black pa3 {% if page.subset == 'about' %}gold{% endif %}" href="/{{page.language}}/{% t 'about.slug' %}/" title="{% t 'about.title' %}">{% t 'about.title' %}</a>
+          <a class="flex items-center hover-gold bl bw2 b--gold bn-l link black pa3 {% if page.subset == 'contact' %}gold{% endif %}" href="/{{page.language}}/{% t 'contact.slug' %}/" title="{% t 'contact.title' %}">{% t 'contact.title' %}</a>
           {% if page.subset != 'home' %}
             {% if page.language == 'en' %}
-              <a class="flex items-center hover-bg-pink bg-animate bl bw2 b--pink bn-l link black pa3" href="/fr/{{ site.data.lang.fr.[page.subset].slug }}/" title="{% tl 'fr' %}">{% tl 'fr' %}</a>
+              <a class="flex items-center hover-gold bl bw2 b--pink bn-l link black pa3" href="/fr/{{ site.data.lang.fr.[page.subset].slug }}/" title="{% tl 'fr' %}">{% tl 'fr' %}</a>
             {% else %}
-              <a class="flex items-center hover-bg-pink bg-animate bl bw2 b--pink bn-l link black pa3" href="/en/{{ site.data.lang.en.[page.subset].slug }}/" title="{% tl 'en' %}">{% tl 'en' %}</a>
+              <a class="flex items-center hover-gold bl bw2 b--pink bn-l link black pa3" href="/en/{{ site.data.lang.en.[page.subset].slug }}/" title="{% tl 'en' %}">{% tl 'en' %}</a>
             {% endif %}
           {% else %}
             {% if page.language == 'en' %}
-              <a class="flex items-center hover-bg-pink bg-animate bl bw2 b--pink bn-l link black pa3" href="/fr/" title="{% tl 'fr' %}">{% tl 'fr' %}</a>
+              <a class="flex items-center hover-gold bl bw2 b--pink bn-l link black pa3" href="/fr/" title="{% tl 'fr' %}">{% tl 'fr' %}</a>
             {% else %}
-              <a class="flex items-center hover-bg-pink bg-animate bl bw2 b--pink bn-l link black pa3" href="/en/" title="{% tl 'en' %}">{% tl 'en' %}</a>
+              <a class="flex items-center hover-gold bl bw2 b--pink bn-l link black pa3" href="/en/" title="{% tl 'en' %}">{% tl 'en' %}</a>
             {% endif %}
           {% endif %}
         </div>
