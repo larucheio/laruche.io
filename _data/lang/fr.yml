@@ -130,3 +130,7 @@ contact:
   subtitle: >
     C’est avec le plus grand des plaisir que nous répondons à vos questions,
     demandes d’informations ou projets.
+
+error404:
+  slug: '404'
+  error: 404 - Page inexistante

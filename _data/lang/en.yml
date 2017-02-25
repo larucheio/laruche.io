@@ -120,3 +120,7 @@ contact:
   subtitle: >
     We would love to hear from you. Feel free to contact us for information,
     projects or simply to say hi!
+
+error404:
+  slug: '404'
+  error: 404 - Page Not Found
