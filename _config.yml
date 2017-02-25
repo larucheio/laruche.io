@@ -16,4 +16,4 @@ sass:
 languages: ['en', 'fr']
 language_data: data.lang.%%
 
-url: "https://laruche.io"
+url: 'https://laruche.io'
