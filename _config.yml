@@ -8,9 +8,12 @@ exclude: [
 
 gems:
   - jekyll-language-plugin
+  - jekyll-sitemap
 
 sass:
     style: compressed
 
 languages: ['en', 'fr']
 language_data: data.lang.%%
+
+url: 'https://laruche.io'
