@@ -4,6 +4,8 @@ lang:
 
 home:
   slug: accueil
+  meta:
+    description: laruche est une agence web basée à Genève.
   title: Accueil
   line: laruche est une agence web basée à Genève.
   subtitle: >
@@ -14,6 +16,11 @@ home:
 
 services:
   slug: services
+  meta:
+    description: >
+      À laruche nous offrons une gamme complète de services allant du consulting
+      jusqu’au management de projet ainsi que des formations à la carte et du
+      développement.
   line: Un ensemble de services à votre disposition.
   title: Services
   subtitle: >
@@ -65,6 +72,10 @@ services:
 
 process:
   slug: processus
+  meta:
+    description: >
+      À laruche nous sommes convaincus qu’un processus de qualité est la clef du
+      succès.
   line: Avec passion, rigueur et méticulosité.
   title: Processus
   subtitle: >
@@ -91,6 +102,8 @@ process:
 
 about:
   slug: a-propos
+  meta:
+    description: À laruche nous sommes humains, avec une ÉNORME motivation.
   line: Nous sommes Maxime et Julien
   title: À propos
   subtitle: À laruche nous sommes humains, avec une ÉNORME motivation.
@@ -125,6 +138,10 @@ about:
 
 contact:
   slug: contact
+  meta:
+    description: >
+      C’est avec le plus grand des plaisir que nous répondons à vos questions,
+      demandes d’informations ou projets.
   line: Laissez nous un message.
   title: Contact
   subtitle: >
@@ -133,4 +150,6 @@ contact:
 
 error404:
   slug: '404'
+  meta:
+    description: 404 - Page inexistante
   error: 404 - Page inexistante
