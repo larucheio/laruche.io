@@ -18,9 +18,18 @@ module.exports = {
   */
   loading: { color: '#3B8070' },
   /*
+  ** Router configuration
+  */
+  router: {
+    middleware: 'i18n'
+  },
+  /*
   ** Build configuration
   */
   build: {
+    vendor: [
+      'axios'
+    ],
     /*
     ** Run ESLINT on save
     */
@@ -34,5 +43,8 @@ module.exports = {
         })
       }
     }
-  }
+  },
+  plugins: [
+    '~plugins/i18n'
+  ]
 }

@@ -5,6 +5,7 @@
   "author": "Julien Grünhagel <julien@laruche.io>",
   "private": true,
   "dependencies": {
+    "axios": "^0.16.0",
     "nuxt": "latest"
   },
   "scripts": {
