@@ -6,6 +6,10 @@
     "french": "Version Française"
   },
   "home": {
+    "head": {
+      "title": "laruche",
+      "description": "Agence Web Suisse"
+    },
     "title": "Bienvenue",
     "introduction": "Ceci est un texte d'introduction en Français."
   },

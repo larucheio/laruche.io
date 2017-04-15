@@ -6,6 +6,10 @@
     "french": "French version"
   },
   "home": {
+    "head": {
+      "title": "laruche",
+      "description": "Swiss Web Agency"
+    },
     "title": "Welcome",
     "introduction": "This is an introduction in English."
   },
