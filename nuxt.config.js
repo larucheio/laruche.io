@@ -10,7 +10,8 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Swiss Web Agency' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css' }
     ]
   },
   /*
@@ -21,14 +22,15 @@ module.exports = {
   ** Router configuration
   */
   router: {
-    middleware: 'i18n'
+    middleware: 'i18n',
+    linkActiveClass: 'gold'
   },
   /*
   ** Build configuration
   */
   build: {
     vendor: [
-      'axios'
+      'vue-i18n'
     ],
     /*
     ** Run ESLINT on save
@@ -45,6 +47,9 @@ module.exports = {
     }
   },
   plugins: [
-    '~plugins/i18n'
-  ]
+    { src: '~plugins/i18n.js', injectAs: 'i18n' }
+  ],
+  generate: {
+    routes: ['/', '/about', '/fr', '/fr/a-propos']
+  }
 }

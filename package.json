@@ -5,8 +5,8 @@
   "author": "Julien Grünhagel <julien@laruche.io>",
   "private": true,
   "dependencies": {
-    "axios": "^0.16.0",
-    "nuxt": "latest"
+    "nuxt": "^0.10.6",
+    "vue-i18n": "^6.1.0"
   },
   "scripts": {
     "dev": "nuxt",
