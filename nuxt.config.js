@@ -26,6 +26,12 @@ module.exports = {
     linkActiveClass: 'gold'
   },
   /*
+  ** CSS configuration
+  */
+  css: [
+    { src: '~assets/css/main.css', lang: 'scss' }
+  ],
+  /*
   ** Build configuration
   */
   build: {
