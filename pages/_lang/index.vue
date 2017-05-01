@@ -1,13 +1,21 @@
 <template>
-  <div class="Content">
-    <div class="container">
-      <h1 class="Content__Title">{{ $t('home.title') }}</h1>
-      <p>{{ $t('home.introduction') }}</p>
+  <div>
+    <div class="w-100 h-100-minus-menu ph3 ph4-l pt6 cover bg-center bg-img-geneva">
+      <h1 class="f2 f-subheadline-l fw6 tc i ma0 white tc">{{ $t('home.line') }}</h1>
+    </div>
+
+    <div class="ph4 ph5-m ph6-l">
+      <page-header
+        title=""
+        :subtitle="$t('home.subtitle')"
+      />
     </div>
   </div>
 </template>
 
 <script>
+import PageHeader from '~components/pages/Header'
+
 export default {
   head () {
     return {
@@ -16,19 +24,9 @@ export default {
         { hid: 'description', name: 'description', content: this.$t('home.head.description') }
       ]
     }
+  },
+  components: {
+    PageHeader
   }
 }
 </script>
-
-<style>
-.Content
-{
-  padding: 50px 0;
-  text-align: center;
-}
-.Content__Title
-{
-  font-weight: 300;
-  padding-bottom: 30px;
-}
-</style>
