@@ -22,6 +22,9 @@
         <nuxt-link class="flex items-center hover-gold bl bw2 b--light-red bn-l link black pa3" :to="path('/services')">
           {{ $t('links.services') }}
         </nuxt-link>
+        <nuxt-link class="flex items-center hover-gold bl bw2 b--light-red bn-l link black pa3" :to="path('/process')">
+          {{ $t('links.process') }}
+        </nuxt-link>
         <nuxt-link class="flex items-center hover-gold bl bw2 b--light-red bn-l link black pa3" :to="path('/about')">
           {{ $t('links.about') }}
         </nuxt-link>

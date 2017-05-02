@@ -2,6 +2,7 @@
   "links": {
     "home": "Home",
     "services": "Services",
+    "process": "Process",
     "about": "About",
     "english": "English",
     "french": "Français"
@@ -46,6 +47,29 @@
       {
         "title": "IT Support",
         "description": "If you encounter some problems with your computers, security problems or general IT-related questions, we offer our expertize for your IT infrastructure."
+      }
+    ]
+  },
+  "process": {
+    "head": {
+      "title": "Process | laruche",
+      "description": "At laruche we strongly believe that a great process is the key to success."
+    },
+    "line": "This is how we do.",
+    "title": "Process",
+    "subtitle": "At laruche we strongly believe that a great process is the key to success.",
+    "processes": [
+      {
+        "title": "1. Initial Meeting",
+        "description": "We start with an initial meeting to introduce ourselves, and learn about our clients vision, real needs, and hidden desires."
+      },
+      {
+        "title": "2. Work Process",
+        "description": "In this process, we will work closely with the client to propose our vision, make it happen, then get the client’s feedback to find ways to improve it."
+      },
+      {
+        "title": "3. Follow-up",
+        "description": "At the end of our job, we stay in touch with the client to make sure our solution goes well."
       }
     ]
   },

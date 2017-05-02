@@ -2,6 +2,7 @@
   "links": {
     "home": "Accueil",
     "services": "Services",
+    "process": "Processus",
     "about": "À propos",
     "english": "English",
     "french": "Français"
@@ -46,6 +47,29 @@
       {
         "title": "Support IT",
         "description": "Si vous rencontrez des problèmes avec vos ordinateurs, des problèmes de sécurité ou des questions générales liées aux technologies de l’information, nous offrons notre expertise pour votre infrastructure informatique."
+      }
+    ]
+  },
+  "process": {
+    "head": {
+      "title": "Processus | laruche",
+      "description": "À laruche nous sommes convaincus qu’un processus de qualité est la clef du succès."
+    },
+    "line": "Avec passion, rigueur et méticulosité.",
+    "title": "Processus",
+    "subtitle": "À laruche nous sommes convaincus qu’un processus de qualité est la clef du succès.",
+    "processes": [
+      {
+        "title": "1. Première rencontre",
+        "description": "Nous démarrons chaque projet par une première rencontre avec le client afin de nous présenter et en apprendre plus sur vous, sur votre vision, vos besoins et vos désirs latents."
+      },
+      {
+        "title": "2. Processus de travail",
+        "description": "Durant ce processus, nous travaillons en étroite collaboration avec vous afin de matérialiser votre vision. Nous travaillons de manière itérative avec des feedbacks réguliers de votre part afin d’être constamment dans la bonne direction."
+      },
+      {
+        "title": "3. Suivi de projet",
+        "description": "Une fois le projet réalisé, nous restons en contact pour le suivi afin de garantir une qualité de service optimale."
       }
     ]
   },
