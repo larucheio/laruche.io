@@ -14,7 +14,31 @@
     "subtitle": "In a constantly changing world, you need to focus on what’s important to you. That’s why at laruche we are specializing in improving your workflows so you can be more efficient at doing what you love."
   },
   "about": {
+    "head": {
+      "title": "About | laruche",
+      "description": "At laruche we are humans, with a BIG motivation."
+    },
+    "line": "We are Julien & Maxime.",
     "title": "About",
-    "introduction": "This page is made to give you more informations."
+    "subtitle": "At laruche we are humans, with a BIG motivation.",
+    "philosophy": {
+      "title": "Our Philosophy",
+      "text": "Our mission is to simplify our clients and collaborators’ processes, imaging unique solutions.<br><br>We try to work alongside the clients toward the goal, in order to not only finish the project but also involve the client during the build phase.<br><br>We value open source works. We are enthusiastic about integrating them to our projects or creating some that might help someone or could receive the help of the community."
+    },
+    "team": {
+      "title": "Meet The Team",
+      "julien": {
+        "name": "Julien Grünhagel",
+        "description": "The founder of laruche who focuses on project management and consulting to ensure we deliver the best quality in our area."
+      },
+      "maxime": {
+        "name": "Maxime Rossier",
+        "description": "Software engineer who focuses on putting all your needs and desires at your fingertips."
+      },
+      "you": {
+        "name": "You?",
+        "description": "Come join the rebellion."
+      }
+    }
   }
 }

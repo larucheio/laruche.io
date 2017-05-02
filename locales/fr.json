@@ -14,7 +14,31 @@
     "subtitle": "Dans un monde en constant changement, vous devez vous concentrer sur ce qui vous est important. C’est pourquoi nous nous sommes spécialisés dans l’optimisation de vos processus afin que vous ayez plus de temps pour faire ce qui vous tient à coeur."
   },
   "about": {
+    "head": {
+      "title": "À propos | laruche",
+      "description": "À laruche nous sommes humains, avec une ÉNORME motivation."
+    },
+    "line": "Nous sommes Julien & Maxime",
     "title": "À propos",
-    "introduction": "Cette page est faite pour vous donner plus d'informations."
+    "subtitle": "À laruche nous sommes humains, avec une ÉNORME motivation.",
+    "philosophy": {
+      "title": "Notre philosophie",
+      "text": "Notre mission est de simplifier les processus de nos clients et collaborateurs en imaginant des solutions uniques.<br><br>Nous travaillons aux côtés de notre client en direction de son but, non seulement afin de matérialiser le projet mais également afin de vous intégrer pendant la phase de construction.<br><br>Nous apprécions l’open-source et nous sommes enthousiaste à l’idée de créer, participer et utiliser des solutions ouvertes afin d’aider et de recevoir de l’aide de la communauté."
+    },
+    "team": {
+      "title": "Rencontre l’équipe",
+      "julien": {
+        "name": "Julien Grünhagel",
+        "description": "Le fondateur de laruche, celui qui se concentre sur la gestion de projet et le consulting afin de garantir que nous délivrons le meilleur miel de la région."
+      },
+      "maxime": {
+        "name": "Maxime Rossier",
+        "description": "Ingénieur logiciel, celui qui s’occupe de mettre tous vos besoins et envies à portée de main."
+      },
+      "you": {
+        "name": "Toi?",
+        "description": "Viens rejoindre la rebellion?"
+      }
+    }
   }
 }
