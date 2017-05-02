@@ -56,6 +56,6 @@ module.exports = {
     { src: '~plugins/i18n.js', injectAs: 'i18n' }
   ],
   generate: {
-    routes: ['/', '/about', '/services', '/process', '/fr', '/fr/services', '/fr/processus', '/fr/a-propos']
+    routes: ['/', '/services', '/process', '/about', '/contact', '/fr', '/fr/services', '/fr/processus', '/fr/a-propos', '/fr/contact']
   }
 }

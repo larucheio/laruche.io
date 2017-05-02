@@ -28,6 +28,9 @@
         <nuxt-link class="flex items-center hover-gold bl bw2 b--light-red bn-l link black pa3" :to="path('/about')">
           {{ $t('links.about') }}
         </nuxt-link>
+        <nuxt-link class="flex items-center hover-gold bl bw2 b--light-red bn-l link black pa3" :to="path('/contact')">
+          {{ $t('links.contact') }}
+        </nuxt-link>
 
         <nuxt-link class="flex items-center hover-gold bl bw2 b--pink bn-l link black pa3" v-if="$i18n.locale === 'en'" :to="`/fr` + $route.fullPath" active-class="none">
           {{ $t('links.french') }}

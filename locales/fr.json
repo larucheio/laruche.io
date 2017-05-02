@@ -4,6 +4,7 @@
     "services": "Services",
     "process": "Processus",
     "about": "À propos",
+    "contact": "Contact",
     "english": "English",
     "french": "Français"
   },
@@ -100,5 +101,14 @@
         "description": "Viens rejoindre la rebellion?"
       }
     }
+  },
+  "contact": {
+    "head": {
+      "title": "Contact | laruche",
+      "description": "C’est avec le plus grand des plaisir que nous répondons à vos questions, demandes d’informations ou projets."
+    },
+    "line": "Laissez nous un message.",
+    "title": "Contact",
+    "subtitle": "C’est avec le plus grand des plaisir que nous répondons à vos questions, demandes d’informations ou projets."
   }
 }

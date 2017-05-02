@@ -4,6 +4,7 @@
     "services": "Services",
     "process": "Process",
     "about": "About",
+    "contact": "Contact",
     "english": "English",
     "french": "Français"
   },
@@ -100,5 +101,14 @@
         "description": "Come join the rebellion."
       }
     }
+  },
+  "contact": {
+    "head": {
+      "title": "Contact | laruche",
+      "description": "We would love to hear from you. Feel free to contact us for information, projects or simply to say hi!"
+    },
+    "line": "Drop us a line.",
+    "title": "Contact",
+    "subtitle": "We would love to hear from you. Feel free to contact us for information, projects or simply to say hi!"
   }
 }
