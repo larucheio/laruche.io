@@ -1,6 +1,7 @@
 {
   "links": {
     "home": "Accueil",
+    "services": "Services",
     "about": "À propos",
     "english": "English",
     "french": "Français"
@@ -12,6 +13,41 @@
     },
     "line": "laruche est une agence web basée à Genève.",
     "subtitle": "Dans un monde en constant changement, vous devez vous concentrer sur ce qui vous est important. C’est pourquoi nous nous sommes spécialisés dans l’optimisation de vos processus afin que vous ayez plus de temps pour faire ce qui vous tient à coeur."
+  },
+  "services": {
+    "head": {
+      "title": "Services | laruche",
+      "description": "À laruche nous offrons une gamme complète de services allant du consulting jusqu’au management de projet ainsi que des formations à la carte et du développement."
+    },
+    "line": "Un ensemble de services à votre disposition.",
+    "title": "Services",
+    "subtitle": "À laruche nous offrons une gamme complète de services allant du consulting jusqu’au management de projet ainsi que des formations à la carte et du développement.",
+    "services": [
+      {
+        "title": "Conseil",
+        "description": "Qu’importe la question, nous sommes la pour y répondre. Des systèmes existants jusqu’au technologies de demain comme blockchain, nous pouvons vous donner des informations inestimables afin que vous puissiez prendre des décisions informées."
+      },
+      {
+        "title": "Solutions Cloud",
+        "description": "Vous avez une solution existante et vous avez besoin d’un audit ou que vous souhaitiez réduire vos coûts opérationnels, nous pouvons vous aider à adapter votre infrastructure afin d’améliorer vos processus."
+      },
+      {
+        "title": "Développement",
+        "description": "Notre domaine d’expertise en développement s’étend du site web statique à l’application web / mobile complète. Nous utilisons des technologies de pointe et nous avons une équipe prête pour tous les projets. Nous pouvons également vous fournir des développeurs internes pour compléter votre équipe."
+      },
+      {
+        "title": "Formations",
+        "description": "Nous pouvons vous offrir une formation spécialisée pour vous et votre équipe. De la gestion de projet au déploiement continu jusqu’au outils front-end, les applications backend et l’infrastructure."
+      },
+      {
+        "title": "Audit",
+        "description": "Si vous vous demandez si votre site ou votre application suit les standards, si un précédent travail à été effectué correctement ou simplement pour auditer différents aspects comme le design, la qualité du code ou encore la sécurité, nous avons des checklists prêtes qui nous permettent de vous fournir un rapport détaillé."
+      },
+      {
+        "title": "Support IT",
+        "description": "Si vous rencontrez des problèmes avec vos ordinateurs, des problèmes de sécurité ou des questions générales liées aux technologies de l’information, nous offrons notre expertise pour votre infrastructure informatique."
+      }
+    ]
   },
   "about": {
     "head": {

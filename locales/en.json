@@ -1,6 +1,7 @@
 {
   "links": {
     "home": "Home",
+    "services": "Services",
     "about": "About",
     "english": "English",
     "french": "Français"
@@ -12,6 +13,41 @@
     },
     "line": "laruche is a full-service web agency based in Geneva.",
     "subtitle": "In a constantly changing world, you need to focus on what’s important to you. That’s why at laruche we are specializing in improving your workflows so you can be more efficient at doing what you love."
+  },
+  "services": {
+    "head": {
+      "title": "Services | laruche",
+      "description": "At laruche we are providing a whole range of services such as consulting, project management, training and development."
+    },
+    "line": "What we can do for you.",
+    "title": "Services",
+    "subtitle": "At laruche we are providing a whole range of services such as consulting, project management, training and development.",
+    "services": [
+      {
+        "title": "Consulting",
+        "description": "Regardless of the question, we are here to answer it. From legacy systems to next tendencies like blockchain, we can provide you priceless insights so you can make informed decisions."
+      },
+      {
+        "title": "Cloud Solutions",
+        "description": "You have a current solution and you need an audit, you want to reduce your running costs. We can help you to tailor your infrastructure in order to improve your process."
+      },
+      {
+        "title": "Development",
+        "description": "Our web development expertise area range from static website to fully featured web/mobile application. We use state-of-the-art technologies and we have a team ready for any projects. We can also provide you in-house developers to complete your team."
+      },
+      {
+        "title": "Training",
+        "description": "We can provide specialized training for you and your team. From Project Management to Continuous Deployment workflow through front-end tooling, backend and infrastructure."
+      },
+      {
+        "title": "Audit",
+        "description": "Wondering if your website or application is following the standards, if a previous IT job was done correctly or simply to audit some aspects like design, code quality or security, we have a checklist that helps us provide our customers with a complete report from the audit."
+      },
+      {
+        "title": "IT Support",
+        "description": "If you encounter some problems with your computers, security problems or general IT-related questions, we offer our expertize for your IT infrastructure."
+      }
+    ]
   },
   "about": {
     "head": {
