@@ -32,14 +32,6 @@
           </div>
           <div class="w-100 mw6-m center mh3-l mt3 mt0-l">
             <team
-              :name="$t('about.team.maxime.name')"
-              :description="$t('about.team.maxime.description')"
-              img="/img/team/maxime_rossier.jpg"
-            >
-            </team>
-          </div>
-          <div class="w-100 mw6-m center mh3-l mt3 mt0-l">
-            <team
               :name="$t('about.team.you.name')"
               :description="$t('about.team.you.description')"
               img="/img/team/we_want_you.jpg"
