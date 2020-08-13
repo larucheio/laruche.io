@@ -3,16 +3,29 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>laruche - Bureau d'ingénieur</title>
+    <title>laruche</title>
     <meta name="description" content="Nous proposons du conseil informatique, de la gestion et du suivi de projet ainsi que du développement d’applications et de sites web.">
   </head>
   <body>
-    <div class="wrapper">
+    <header class="background-blue">
+      <div>
+        <p style="display: inline-block;">⬡</p>
+        <a href="/" style="margin-left: .5rem; display: inline-block;">
+          <h1>laruche</h1>
+        </a>
+        <nav style="margin-left: 2rem; margin-bottom: 1rem; display: inline-block;">
+          <a href="/" style="margin-right: 1rem;">Accueil</a>
+          <a href="/services/" style="margin-right: 1rem;">Services</a>
+          <a href="/portfolio/" style="margin-right: 1rem;">Portfolio</a>
+          <a href="/contact/" style="margin-right: 1rem;">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <main class="wrapper-header">
       {{ content }}
-    </div>
-    <footer class="wrapper">
-      <hr>
-      <section itemscope itemtype="http://schema.org/Organization">
+    </main>
+    <footer class="background-blue">
+      <section itemscope itemtype="http://schema.org/Organization" class="wrapper">
         <p itemprop="founder" itemscope itemtype="http://schema.org/Person">
           <span itemprop="name">Julien Grünhagel</span>
           <br>
@@ -40,23 +53,12 @@
         font-size: 20px;
         font-family: 'Avenir Next', sans-serif;
       }
+
       body {
-        margin: 1rem;
-        color: var(--text, black);
-        background-color: var(--background, white);
-        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23ffffff' fill-opacity='0.15' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        margin: 0;
       }
 
-      @media (min-width: 800px) {
-        body {
-          margin: 2rem;
-        }
-      }
-
-      h1 {
+      header h1 {
         font-size: 1rem;
         margin-bottom: 2rem;
       }
@@ -67,20 +69,11 @@
         list-style-position: inside;
       }
 
-      a {
-        color: var(--text, black);
-      }
-
-      hr {
-        border: none;
-        border-top: 1px solid var(--text, black);
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-      }
-
       .wrapper {
+        padding: 1rem;
         width: 100%;
-        max-width: 30rem;
+        max-width: 900px;
+        box-sizing: border-box;
       }
 
       .u-mt-0 {
@@ -89,6 +82,49 @@
 
       .u-mb-0 {
         margin-bottom: 0;
+      }
+
+      .background-blue {
+        color: var(--text, black);
+        background-color: var(--background, white);
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23ffffff' fill-opacity='0.15' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+      }
+
+      header {
+        position: sticky;
+        top: 0
+      }
+
+      header h1 {
+        margin-bottom: 1rem;
+      }
+
+      header a {
+        color: white;
+        text-decoration: none;
+      }
+
+      header,
+      footer,
+      .wrapper-header {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .service {
+        margin-top: 5rem;
+        margin-bottom: 15rem;
+      }
+
+      .service > h1 {
+        letter-spacing: 0.02em;
+      }
+
+      .service > img {
+        width: 100%;
+        max-width: 500px;
       }
     </style>
   </body>
